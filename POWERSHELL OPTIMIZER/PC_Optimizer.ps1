@@ -72,7 +72,7 @@
 #    A non-admin window cannot self-elevate a pasted one-liner safely.
 # ================================================================
 
-Set-StrictMode -On
+Set-StrictMode -Off
 $ErrorActionPreference = "SilentlyContinue"
 
 # ── ADMIN CHECK ──────────────────────────────────────────────────
